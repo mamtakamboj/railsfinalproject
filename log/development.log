@@ -1,0 +1,3442 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 11:38:31 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (35.1ms)
+Completed 200 OK in 233ms (Views: 126.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 12:16:01 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 28264ms (Views: 28174.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 12:16:31 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 12:16:31 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-21 12:16:31 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 12:16:32 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 12:16:33 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 12:16:33 +0000
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 12:16:45 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 966ms (Views: 954.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2015-11-21 12:16:47 +0000
+Processing by SitepageController#aboutus as HTML
+  Rendered sitepage/aboutus.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 477ms (Views: 475.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 12:16:50 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 542ms (Views: 540.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 12:19:07 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 651ms (Views: 648.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 12:19:08 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 12:19:09 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 12:19:09 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 12:19:09 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 12:19:10 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 12:19:10 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 12:19:10 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 12:25:52 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 507ms (Views: 504.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 12:25:53 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 12:25:53 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 12:25:53 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 12:25:53 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 12:25:54 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 12:25:54 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 12:25:54 +0000
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2015-11-21 12:26:02 +0000
+Processing by SitepageController#aboutus as HTML
+  Rendered sitepage/aboutus.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 502ms (Views: 493.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img2.jpg" for 127.0.0.1 at 2015-11-21 12:26:03 +0000
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 12:26:25 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 395ms (Views: 393.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 12:26:26 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 402ms (Views: 400.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (65.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (56.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateItems (20151121123642)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "description" text, "price" decimal, "image_url" varchar, "category" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151121123642"]]
+  [1m[35m (39.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 12:39:11 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 11706ms (Views: 11606.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-21 12:39:25 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 12:39:26 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 12:39:26 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 12:39:26 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 12:39:26 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 12:39:26 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 12:39:26 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 12:39:26 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 12:39:44 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (1.1ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 619ms (Views: 599.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 12:39:45 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 12:39:46 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 12:39:46 +0000
+
+
+Started GET "/items/new" for 127.0.0.1 at 2015-11-21 12:39:52 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (226.0ms)
+  Rendered items/new.html.erb within layouts/application (266.4ms)
+Completed 200 OK in 717ms (Views: 670.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2015-11-21 12:43:48 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"npANgRTFh0a1qS3s86jpqFldNCa9OTBN0okwMrl08TIof9jQlaFZks+4lM85DQ7S72orp6VgMZ1ur4AkrCnpdg==", "item"=>{"title"=>"Tayler Animal Print Tunic1", "description"=>"Tayler Animal Print Tunic", "price"=>"10", "image_url"=>"2.jpg", "category"=>"New"}, "commit"=>"Create Item"}
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  INSERT INTO "items" ("title", "description", "price", "image_url", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Tayler Animal Print Tunic1"], ["description", "Tayler Animal Print Tunic"], ["price", 10.0], ["image_url", "2.jpg"], ["category", "New"], ["created_at", "2015-11-21 12:43:48.947183"], ["updated_at", "2015-11-21 12:43:48.947183"]]
+  [1m[36m (180.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/items/1
+Completed 302 Found in 255ms (ActiveRecord: 184.1ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-11-21 12:43:49 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.8ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 470ms (Views: 387.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 12:43:50 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 12:43:50 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 12:43:50 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 12:43:57 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.6ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 299ms (Views: 297.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-11-21 12:44:10 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 305ms (Views: 301.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 12:59:56 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 612ms (Views: 609.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 12:59:56 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 12:59:56 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 12:59:57 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 12:59:57 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 12:59:57 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 12:59:57 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 12:59:57 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:00:04 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.6ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (63.2ms)
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (wrong number of arguments (1 for 0)):
+    12: 						<div class="col-lg-3">
+    13: 						<% @items.each do |item| %>
+    14: 							<blockquote>
+    15: 								<%= item.image_url style="width: 200px !important;" %>
+    16: 								<span class="text"><%= item.title %><br>&euro;<%= item.price %></span>
+    17: 								<button type="submit" class="btn btn-warning">add to cart</button>
+    18: 							</blockquote>
+  app/views/items/index.html.erb:15:in `block in _app_views_items_index_html_erb__536294547__629187008'
+  app/views/items/index.html.erb:13:in `_app_views_items_index_html_erb__536294547__629187008'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (40.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (257.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (184.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (468.2ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:00:38 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 557ms (Views: 555.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 13:00:39 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-21 13:00:39 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 13:00:39 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 13:00:39 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-21 13:00:39 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 13:00:40 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 13:00:40 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 13:00:40 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 13:00:40 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-21 13:00:40 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:00:41 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:00:41 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:00:41 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:00:41 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 13:00:41 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 13:00:41 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 13:00:41 +0000
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-11-21 13:02:24 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 358ms (Views: 350.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:02:25 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:02:25 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:02:25 +0000
+
+
+Started GET "/items/1/edit" for 127.0.0.1 at 2015-11-21 13:02:32 +0000
+Processing by ItemsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/_form.html.erb (12.8ms)
+  Rendered items/edit.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 290ms (Views: 286.8ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/items/1" for 127.0.0.1 at 2015-11-21 13:03:13 +0000
+Processing by ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"thy8x/Ix3B9detMQBJ5z9E1N9A3rHFbAC38IfwcVo7wA82mWc1UCyydrajPOO5SO+3rrjPNFVxC3WbhpEki7+A==", "item"=>{"title"=>"Tayler Animal Print Tunic1", "description"=>"Tayler Animal Print Tunic", "price"=>"10.0", "image_url"=>"/assets/1.jpg", "category"=>"New"}, "commit"=>"Update Item", "id"=>"1"}
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.4ms)[0m  [1mUPDATE "items" SET "image_url" = ?, "updated_at" = ? WHERE "items"."id" = ?[0m  [["image_url", "/assets/1.jpg"], ["updated_at", "2015-11-21 13:03:13.423637"], ["id", 1]]
+  [1m[35m (47.8ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/items/1
+Completed 302 Found in 95ms (ActiveRecord: 49.8ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-11-21 13:03:13 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 390ms (Views: 382.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:03:15 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:03:15 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:03:15 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:03:24 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (20.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 500ms (Views: 478.7ms | ActiveRecord: 20.4ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:03:25 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:03:25 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:03:25 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 13:03:26 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:03:26 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 13:03:26 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 13:03:26 +0000
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-11-21 13:03:35 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 477ms (Views: 472.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:03:36 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:03:36 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:03:36 +0000
+
+
+Started GET "/items/1/edit" for 127.0.0.1 at 2015-11-21 13:03:42 +0000
+Processing by ItemsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/_form.html.erb (14.0ms)
+  Rendered items/edit.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 291ms (Views: 287.7ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/items/1" for 127.0.0.1 at 2015-11-21 13:03:53 +0000
+Processing by ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ky170Anus2qvaZSz9E6SU/4S5343RZpCoEjIJu2SGHMlwq6BiIptvtV4LZA+63UpSCX4/y8cm5Icbngw+M8ANw==", "item"=>{"title"=>"Tayler Animal Print Tunic1", "description"=>"Tayler Animal Print Tunic", "price"=>"10.0", "image_url"=>"assets/1.jpg", "category"=>"New"}, "commit"=>"Update Item", "id"=>"1"}
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (12.9ms)[0m  [1mUPDATE "items" SET "image_url" = ?, "updated_at" = ? WHERE "items"."id" = ?[0m  [["image_url", "assets/1.jpg"], ["updated_at", "2015-11-21 13:03:53.812697"], ["id", 1]]
+  [1m[35m (52.2ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/items/1
+Completed 302 Found in 101ms (ActiveRecord: 65.8ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-11-21 13:03:54 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 489ms (Views: 484.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:03:55 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:03:55 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:03:55 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:04:03 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 418ms (Views: 416.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:04:04 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:04:04 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:04:04 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:04:04 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 13:04:04 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 13:04:04 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 13:04:04 +0000
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-11-21 13:04:11 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 444ms (Views: 433.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:04:12 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:04:12 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:04:12 +0000
+
+
+Started GET "/items/1/edit" for 127.0.0.1 at 2015-11-21 13:04:18 +0000
+Processing by ItemsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered items/_form.html.erb (7.2ms)
+  Rendered items/edit.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 259ms (Views: 255.3ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/items/1" for 127.0.0.1 at 2015-11-21 13:04:34 +0000
+Processing by ItemsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3QUbQn7T7zlSVnRqZ606KfPq3/EACku0K+ikZhJaYKFr6s4T/7cx7ShHzUmtCN1TRd3AcBhTSmSXzhRwBwd45Q==", "item"=>{"title"=>"Tayler Animal Print Tunic1", "description"=>"Tayler Animal Print Tunic", "price"=>"10.0", "image_url"=>"1.jpg", "category"=>"New"}, "commit"=>"Update Item", "id"=>"1"}
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (10.6ms)[0m  begin transaction
+  [1m[36mSQL (1.6ms)[0m  [1mUPDATE "items" SET "image_url" = ?, "updated_at" = ? WHERE "items"."id" = ?[0m  [["image_url", "1.jpg"], ["updated_at", "2015-11-21 13:04:34.285554"], ["id", 1]]
+  [1m[35m (69.5ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/items/1
+Completed 302 Found in 122ms (ActiveRecord: 82.0ms)
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-11-21 13:04:34 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 486ms (Views: 472.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:04:35 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:04:35 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:04:36 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:04:46 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 453ms (Views: 451.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:04:48 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:04:48 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:04:48 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 13:04:48 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 13:04:48 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:04:48 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 13:04:48 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:11:36 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (1.0ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (40.5ms)
+Completed 200 OK in 454ms (Views: 450.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/1-6a47737e33f1696426a90d7d8661cdff669b4af704a0b7c2fa44475bfc02b459.jpg" for 127.0.0.1 at 2015-11-21 13:11:36 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:11:37 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:11:37 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:11:37 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:11:37 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 13:11:37 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 13:11:37 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 13:11:37 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:14:46 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (7.4ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 480ms (Views: 471.1ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 13:14:47 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-21 13:14:47 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 13:14:47 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 13:14:47 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-21 13:14:47 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 13:14:47 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 13:14:47 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 13:14:47 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 13:14:47 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-21 13:14:47 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:14:48 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:14:48 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:14:48 +0000
+
+
+Started GET "/assets/1-6a47737e33f1696426a90d7d8661cdff669b4af704a0b7c2fa44475bfc02b459.jpg" for 127.0.0.1 at 2015-11-21 13:14:48 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:14:48 +0000
+
+
+Started GET "/items/1" for 127.0.0.1 at 2015-11-21 13:15:05 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered items/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 364ms (Views: 356.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:15:06 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:15:06 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:15:06 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:16:01 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (38.8ms)
+Completed 200 OK in 392ms (Views: 389.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:16:02 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:16:02 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:16:02 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:16:02 +0000
+
+
+Started GET "/items/new" for 127.0.0.1 at 2015-11-21 13:16:08 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (12.1ms)
+  Rendered items/new.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 293ms (Views: 290.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2015-11-21 13:18:00 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x8yRaJbZm+ibqylSQ3yzy6LxIMTu+OO2gWpaiOcEzfBxI0Q5F71FPOG6kHGJ2VSxFMY/Rfah4mY9TOqe8lnVtA==", "item"=>{"title"=>"Fancy Collection", "description"=>"Fancy Collection", "price"=>"12", "image_url"=>"2.jpg", "category"=>"New"}, "commit"=>"Create Item"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.8ms)[0m  INSERT INTO "items" ("title", "description", "price", "image_url", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Fancy Collection"], ["description", "Fancy Collection"], ["price", 12.0], ["image_url", "2.jpg"], ["category", "New"], ["created_at", "2015-11-21 13:18:00.602318"], ["updated_at", "2015-11-21 13:18:00.602318"]]
+  [1m[36m (73.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/items/2
+Completed 302 Found in 108ms (ActiveRecord: 79.3ms)
+
+
+Started GET "/items/2" for 127.0.0.1 at 2015-11-21 13:18:00 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered items/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 466ms (Views: 456.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:18:02 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:18:02 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:18:02 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:18:09 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.6ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (36.8ms)
+Completed 200 OK in 317ms (Views: 314.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/2-962e692aefb21c015cc3906ea21a594d2d54c0c06a5950161c030fbca05fed4d.jpg" for 127.0.0.1 at 2015-11-21 13:18:10 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:18:10 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:19:22 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (66.6ms)
+Completed 200 OK in 507ms (Views: 504.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 13:19:23 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-21 13:19:23 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 13:19:23 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-21 13:19:23 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 13:19:23 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 13:19:23 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 13:19:23 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 13:19:23 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 13:19:24 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-21 13:19:24 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:19:24 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:19:24 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:19:24 +0000
+
+
+Started GET "/assets/1-6a47737e33f1696426a90d7d8661cdff669b4af704a0b7c2fa44475bfc02b459.jpg" for 127.0.0.1 at 2015-11-21 13:19:24 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:19:24 +0000
+
+
+Started GET "/assets/2-962e692aefb21c015cc3906ea21a594d2d54c0c06a5950161c030fbca05fed4d.jpg" for 127.0.0.1 at 2015-11-21 13:19:24 +0000
+
+
+Started GET "/items/new" for 127.0.0.1 at 2015-11-21 13:19:44 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (21.1ms)
+  Rendered items/new.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 299ms (Views: 297.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2015-11-21 13:20:23 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iCEqMokIJye+8YK/7sXsePM4Bgu0Bqmsp5n5ffXYFrs+zv9jCGz588TgO5wkYAsCRQ8ZiqxfqHwbv0lr4IUO/w==", "item"=>{"title"=>"Fancy Collection", "description"=>"Fancy Collection", "price"=>"11", "image_url"=>"3.jpg", "category"=>"New"}, "commit"=>"Create Item"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (11.7ms)[0m  INSERT INTO "items" ("title", "description", "price", "image_url", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Fancy Collection"], ["description", "Fancy Collection"], ["price", 11.0], ["image_url", "3.jpg"], ["category", "New"], ["created_at", "2015-11-21 13:20:23.329269"], ["updated_at", "2015-11-21 13:20:23.329269"]]
+  [1m[36m (66.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/items/3
+Completed 302 Found in 108ms (ActiveRecord: 78.7ms)
+
+
+Started GET "/items/3" for 127.0.0.1 at 2015-11-21 13:20:23 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered items/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 382ms (Views: 370.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:20:24 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:20:25 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:20:25 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:20:33 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.6ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (26.8ms)
+Completed 200 OK in 301ms (Views: 299.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:20:34 +0000
+
+
+Started GET "/assets/3-71b2e7173be6bc0e968b51bfb42474a534a3fcba6c2e9e1741eac53993556246.jpg" for 127.0.0.1 at 2015-11-21 13:20:34 +0000
+
+
+Started GET "/items/new" for 127.0.0.1 at 2015-11-21 13:20:38 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (15.4ms)
+  Rendered items/new.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 345ms (Views: 343.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2015-11-21 13:21:04 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CkKFx/FYZhNT3e0H9Fwn/+NMWhdQk/ZdCrBNr6V5DBK8rVCWcDy4xynMVCQ++cCFVXtFlkjK9422lv25sCQUVg==", "item"=>{"title"=>"Fancy Collection", "description"=>"Fancy Collection", "price"=>"15", "image_url"=>"4.jpg", "category"=>"New"}, "commit"=>"Create Item"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "items" ("title", "description", "price", "image_url", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Fancy Collection"], ["description", "Fancy Collection"], ["price", 15.0], ["image_url", "4.jpg"], ["category", "New"], ["created_at", "2015-11-21 13:21:04.607806"], ["updated_at", "2015-11-21 13:21:04.607806"]]
+  [1m[35m (59.2ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/items/4
+Completed 302 Found in 93ms (ActiveRecord: 60.9ms)
+
+
+Started GET "/items/4" for 127.0.0.1 at 2015-11-21 13:21:04 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered items/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 460ms (Views: 451.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:21:05 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:21:06 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:21:06 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:21:10 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 361ms (Views: 358.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:21:11 +0000
+
+
+Started GET "/assets/4-cd9e78b65fe1152767c681bb727512516f34928965089c538efeb11f292aa2bc.jpg" for 127.0.0.1 at 2015-11-21 13:21:11 +0000
+
+
+Started GET "/items/new" for 127.0.0.1 at 2015-11-21 13:21:31 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (7.0ms)
+  Rendered items/new.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 320ms (Views: 318.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2015-11-21 13:21:53 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f7vemtUJkbtzBWEPLadp21uuwyytNwOBKk7hShfBX5HJVAvLVG1PbwkU2CznAo6h7ZncrbVuAlGWaFFcApxH1Q==", "item"=>{"title"=>"Fancy Collection", "description"=>"Fancy Collection", "price"=>"8", "image_url"=>"5.jpg", "category"=>"New"}, "commit"=>"Create Item"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "items" ("title", "description", "price", "image_url", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Fancy Collection"], ["description", "Fancy Collection"], ["price", 8.0], ["image_url", "5.jpg"], ["category", "New"], ["created_at", "2015-11-21 13:21:53.555627"], ["updated_at", "2015-11-21 13:21:53.555627"]]
+  [1m[36m (51.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/items/5
+Completed 302 Found in 80ms (ActiveRecord: 53.4ms)
+
+
+Started GET "/items/5" for 127.0.0.1 at 2015-11-21 13:21:53 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mItem Load (0.5ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered items/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 429ms (Views: 417.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:21:55 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:21:55 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:21:55 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:21:58 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (9.5ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (100.5ms)
+Completed 200 OK in 428ms (Views: 416.6ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:21:59 +0000
+
+
+Started GET "/assets/5-bc7f925933aab98292b59547e94cf275a5041b7d3b4d5a04a1f9f8334eaa3cdb.jpg" for 127.0.0.1 at 2015-11-21 13:21:59 +0000
+
+
+Started GET "/items/new" for 127.0.0.1 at 2015-11-21 13:22:19 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (11.9ms)
+  Rendered items/new.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 283ms (Views: 281.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2015-11-21 13:22:50 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Bg/cPlWIx3OYSFUI7fo4GzKIiGtGu+Zra7EItW+yMu+w4Alv1OwZp+JZ7CsnX99hhL+X6l7i57vXl7ijeu8qqw==", "item"=>{"title"=>"Fancy Collection", "description"=>"Fancy Collection", "price"=>"20", "image_url"=>"6.jpg", "category"=>"New"}, "commit"=>"Create Item"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (10.7ms)[0m  [1mINSERT INTO "items" ("title", "description", "price", "image_url", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Fancy Collection"], ["description", "Fancy Collection"], ["price", 20.0], ["image_url", "6.jpg"], ["category", "New"], ["created_at", "2015-11-21 13:22:50.615389"], ["updated_at", "2015-11-21 13:22:50.615389"]]
+  [1m[35m (58.2ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/items/6
+Completed 302 Found in 99ms (ActiveRecord: 69.1ms)
+
+
+Started GET "/items/6" for 127.0.0.1 at 2015-11-21 13:22:50 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered items/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 468ms (Views: 457.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:22:52 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:22:52 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:22:52 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:22:56 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (108.9ms)
+Completed 200 OK in 380ms (Views: 378.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:22:57 +0000
+
+
+Started GET "/assets/6-5f2ef227d801319792c3e41b6cf552a294d3761901cc759c806ea361b475154d.jpg" for 127.0.0.1 at 2015-11-21 13:22:57 +0000
+
+
+Started GET "/items/new" for 127.0.0.1 at 2015-11-21 13:23:02 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (22.6ms)
+  Rendered items/new.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 344ms (Views: 343.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2015-11-21 13:23:23 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EPmEZzkOntNMM4nlYbEMXRfOc32YLqkzopo6xJI6LQqmFlE2uGpABzYiMMarFOsnofls/IB3qOMevIrSh2c1Tg==", "item"=>{"title"=>"Fancy Collection", "description"=>"Fancy Collection", "price"=>"15", "image_url"=>"7.jpg", "category"=>"New"}, "commit"=>"Create Item"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "items" ("title", "description", "price", "image_url", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", "Fancy Collection"], ["description", "Fancy Collection"], ["price", 15.0], ["image_url", "7.jpg"], ["category", "New"], ["created_at", "2015-11-21 13:23:23.478668"], ["updated_at", "2015-11-21 13:23:23.478668"]]
+  [1m[36m (116.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/items/7
+Completed 302 Found in 141ms (ActiveRecord: 117.9ms)
+
+
+Started GET "/items/7" for 127.0.0.1 at 2015-11-21 13:23:23 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered items/show.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 475ms (Views: 468.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:23:24 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:23:25 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:23:25 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:24:04 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (8.2ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (108.1ms)
+Completed 200 OK in 384ms (Views: 372.9ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:24:05 +0000
+
+
+Started GET "/assets/7-d8e563d7858d9ddeb14d2a6c9b3b350f0ac885ea77ba7c8449a9c0ce8fde536f.jpg" for 127.0.0.1 at 2015-11-21 13:24:05 +0000
+
+
+Started GET "/items/new" for 127.0.0.1 at 2015-11-21 13:24:16 +0000
+Processing by ItemsController#new as HTML
+  Rendered items/_form.html.erb (12.8ms)
+  Rendered items/new.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 305ms (Views: 303.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/items" for 127.0.0.1 at 2015-11-21 13:24:39 +0000
+Processing by ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6YQbrSpD+ORYlTuikI7JRdDJunrt9d2FGc1RkDcNQZ5fa878qycmMCKEgoFaKy4/Zv6l+/Ws3FWl6+GGIlBZ2g==", "item"=>{"title"=>"Fancy Collection", "description"=>"Fancy Collection", "price"=>"22", "image_url"=>"8.jpg", "category"=>"New"}, "commit"=>"Create Item"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (7.5ms)[0m  [1mINSERT INTO "items" ("title", "description", "price", "image_url", "category", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Fancy Collection"], ["description", "Fancy Collection"], ["price", 22.0], ["image_url", "8.jpg"], ["category", "New"], ["created_at", "2015-11-21 13:24:40.026013"], ["updated_at", "2015-11-21 13:24:40.026013"]]
+  [1m[35m (60.7ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/items/8
+Completed 302 Found in 87ms (ActiveRecord: 68.4ms)
+
+
+Started GET "/items/8" for 127.0.0.1 at 2015-11-21 13:24:40 +0000
+Processing by ItemsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 8]]
+  Rendered items/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 398ms (Views: 393.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:24:41 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:24:41 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:24:41 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:24:45 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (132.2ms)
+Completed 200 OK in 485ms (Views: 483.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:24:46 +0000
+
+
+Started GET "/assets/8-7ee8f1e8724be091a6bac7fb3cfb2b2c146804cf050eefcd307eb88073b6ecc2.jpg" for 127.0.0.1 at 2015-11-21 13:24:46 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:25:28 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.8ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (172.2ms)
+Completed 200 OK in 521ms (Views: 518.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:25:29 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:25:29 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:25:29 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:25:29 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:26:00 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.7ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (167.0ms)
+Completed 200 OK in 575ms (Views: 572.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:26:01 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:26:01 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:26:01 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:26:01 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 13:31:15 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 357ms (Views: 353.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 13:31:16 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 13:31:16 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 13:31:16 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:31:17 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:31:17 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:31:17 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:31:17 +0000
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2015-11-21 13:31:27 +0000
+Processing by SitepageController#aboutus as HTML
+  Rendered sitepage/aboutus.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 309ms (Views: 307.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img2.jpg" for 127.0.0.1 at 2015-11-21 13:31:28 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:31:34 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (1.1ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (91.4ms)
+Completed 200 OK in 391ms (Views: 376.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 13:57:50 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (1555.9ms)
+Completed 200 OK in 12155ms (Views: 12068.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 13:58:04 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 13:58:04 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 13:58:04 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 13:58:05 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 14:00:27 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.8ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (173.5ms)
+Completed 200 OK in 780ms (Views: 777.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 14:00:29 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 14:00:29 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 14:00:29 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 14:00:29 +0000
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2015-11-21 14:00:33 +0000
+Processing by SitepageController#aboutus as HTML
+  Rendered sitepage/aboutus.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 519ms (Views: 516.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img2.jpg" for 127.0.0.1 at 2015-11-21 14:00:34 +0000
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 14:00:38 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 343ms (Views: 341.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 14:00:38 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 14:00:38 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 14:00:38 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 14:00:42 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (79.8ms)
+Completed 200 OK in 402ms (Views: 400.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 14:02:12 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (160.2ms)
+Completed 200 OK in 603ms (Views: 601.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 14:02:14 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 14:02:14 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 14:02:14 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 14:02:14 +0000
+
+
+Started GET "/cart/1" for 127.0.0.1 at 2015-11-21 14:02:19 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 20ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 14:02:19 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (1.1ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (134.8ms)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (No route matches {:action=>"createOrder", :controller=>"cart"}):
+    42: </tr>
+    43: </table>
+    44: <p><%= link_to 'Clear Cart', :controller => "cart", :action => "clearCart" %></p>
+    45: <%= link_to 'Check Out', :controller => "cart", :action => "createOrder" %>
+    46: <% end %>
+    47: <p>
+    48: <%= link_to 'Continue Shopping', :controller => :items %>
+  app/views/cart/index.html.erb:45:in `_app_views_cart_index_html_erb__907029075__627529868'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (25.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (22.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (140.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (5.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (136.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (286.2ms)
+
+
+Started GET "/cart/1" for 127.0.0.1 at 2015-11-21 14:02:20 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 14:02:20 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (76.0ms)
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (No route matches {:action=>"createOrder", :controller=>"cart"}):
+    42: </tr>
+    43: </table>
+    44: <p><%= link_to 'Clear Cart', :controller => "cart", :action => "clearCart" %></p>
+    45: <%= link_to 'Check Out', :controller => "cart", :action => "createOrder" %>
+    46: <% end %>
+    47: <p>
+    48: <%= link_to 'Continue Shopping', :controller => :items %>
+  app/views/cart/index.html.erb:45:in `_app_views_cart_index_html_erb__907029075__632432608'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (44.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (175.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (3.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (152.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (8.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (10.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (373.7ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 14:04:07 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (60.5ms)
+Completed 500 Internal Server Error in 91ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (No route matches {:action=>"createOrder", :controller=>"cart"}):
+    42: </tr>
+    43: </table>
+    44: <p><%= link_to 'Clear Cart', :controller => "cart", :action => "clearCart" %></p>
+    45: <!--<%= link_to 'Check Out', :controller => "cart", :action => "createOrder" %>-->
+    46: <% end %>
+    47: <p>
+    48: <%= link_to 'Continue Shopping', :controller => :items %>
+  app/views/cart/index.html.erb:45:in `_app_views_cart_index_html_erb__907029075__627469438'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (43.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (25.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (197.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (158.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (357.7ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 14:04:46 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (8.7ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 514ms (Views: 504.3ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 14:04:48 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 14:04:48 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 14:04:48 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 14:05:18 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (85.9ms)
+Completed 200 OK in 357ms (Views: 354.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 14:05:19 +0000
+
+
+Started GET "/cart/2" for 127.0.0.1 at 2015-11-21 14:05:29 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 14:05:29 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (48.2ms)
+Completed 200 OK in 380ms (Views: 377.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 15:06:59 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mItem Load (1.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (78.1ms)
+Completed 200 OK in 8293ms (Views: 8290.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 15:07:08 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (68.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (303.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (124.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (6.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (276.0ms)
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 15:07:09 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 15:07:09 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 15:07:09 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 15:07:37 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (2.5ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (85.2ms)
+Completed 200 OK in 370ms (Views: 366.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 15:07:38 +0000
+
+
+Started GET "/cart" for 127.0.0.1 at 2015-11-21 15:07:43 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mItem Load (4.6ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (36.1ms)
+Completed 200 OK in 331ms (Views: 323.9ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/cart/clear" for 127.0.0.1 at 2015-11-21 15:07:49 +0000
+Processing by CartController#clearCart as HTML
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 15:07:49 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 274ms (Views: 272.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 16:03:24 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 424ms (Views: 416.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 16:03:25 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 16:03:25 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 16:03:25 +0000
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2015-11-21 16:03:33 +0000
+Processing by SitepageController#aboutus as HTML
+  Rendered sitepage/aboutus.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 426ms (Views: 424.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img2.jpg" for 127.0.0.1 at 2015-11-21 16:03:33 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 16:03:38 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (1.9ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (119.8ms)
+Completed 200 OK in 617ms (Views: 613.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 18:51:05 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 3973ms (Views: 3820.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 18:51:12 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 18:51:13 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 18:51:13 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 18:51:13 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 18:51:13 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 18:51:13 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 18:51:13 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 18:51:15 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (18.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (14.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (143.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (665.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (6.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (298.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (10.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (732.9ms)
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2015-11-21 18:51:54 +0000
+Processing by SitepageController#aboutus as HTML
+  Rendered sitepage/aboutus.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 682ms (Views: 678.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img2.jpg" for 127.0.0.1 at 2015-11-21 18:51:55 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 18:52:04 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (1.0ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (286.5ms)
+Completed 200 OK in 988ms (Views: 976.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/cart/2" for 127.0.0.1 at 2015-11-21 18:52:13 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 18:52:13 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (4.8ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (344.6ms)
+Completed 200 OK in 884ms (Views: 877.7ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:18:16 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (60.2ms)
+Completed 200 OK in 951ms (Views: 947.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/GolfStyleSheet.self-16d533848a96a2372db196837252d6946ea864a81476d3a0df218567f250916b.css?body=1" for 127.0.0.1 at 2015-11-21 19:18:18 +0000
+
+
+Started GET "/assets/cart.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:18:18 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-21 19:18:18 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:18:18 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-21 19:18:18 +0000
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:18:18 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 19:18:18 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 19:18:19 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 19:18:19 +0000
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:18:19 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:18:19 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:18:19 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-21 19:18:19 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 19:18:22 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 19:18:22 +0000
+
+
+Started GET "/assets/2-962e692aefb21c015cc3906ea21a594d2d54c0c06a5950161c030fbca05fed4d.jpg" for 127.0.0.1 at 2015-11-21 19:18:22 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 19:18:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (277.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (175.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (372.0ms)
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 19:18:23 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 19:18:23 +0000
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:22:49 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.5ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 965ms (Views: 962.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/GolfStyleSheet.self-16d533848a96a2372db196837252d6946ea864a81476d3a0df218567f250916b.css?body=1" for 127.0.0.1 at 2015-11-21 19:22:51 +0000
+
+
+Started GET "/assets/cart.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:22:51 +0000
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:22:51 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-21 19:22:51 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:22:51 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-21 19:22:51 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 19:22:51 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 19:22:51 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 19:22:51 +0000
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:22:51 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:22:52 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:22:52 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-21 19:22:52 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 19:22:55 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (16.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (24.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (361.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (202.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (8.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (445.5ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 19:22:56 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 19:22:56 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 19:22:56 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 19:22:56 +0000
+
+
+Started GET "/assets/2-962e692aefb21c015cc3906ea21a594d2d54c0c06a5950161c030fbca05fed4d.jpg" for 127.0.0.1 at 2015-11-21 19:22:56 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 19:23:00 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (8.8ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (182.8ms)
+Completed 200 OK in 1223ms (Views: 1212.9ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/assets/1-6a47737e33f1696426a90d7d8661cdff669b4af704a0b7c2fa44475bfc02b459.jpg" for 127.0.0.1 at 2015-11-21 19:23:04 +0000
+
+
+Started GET "/assets/3-71b2e7173be6bc0e968b51bfb42474a534a3fcba6c2e9e1741eac53993556246.jpg" for 127.0.0.1 at 2015-11-21 19:23:05 +0000
+
+
+Started GET "/assets/4-cd9e78b65fe1152767c681bb727512516f34928965089c538efeb11f292aa2bc.jpg" for 127.0.0.1 at 2015-11-21 19:23:05 +0000
+
+
+Started GET "/assets/5-bc7f925933aab98292b59547e94cf275a5041b7d3b4d5a04a1f9f8334eaa3cdb.jpg" for 127.0.0.1 at 2015-11-21 19:23:05 +0000
+
+
+Started GET "/assets/6-5f2ef227d801319792c3e41b6cf552a294d3761901cc759c806ea361b475154d.jpg" for 127.0.0.1 at 2015-11-21 19:23:05 +0000
+
+
+Started GET "/assets/7-d8e563d7858d9ddeb14d2a6c9b3b350f0ac885ea77ba7c8449a9c0ce8fde536f.jpg" for 127.0.0.1 at 2015-11-21 19:23:05 +0000
+
+
+Started GET "/assets/8-7ee8f1e8724be091a6bac7fb3cfb2b2c146804cf050eefcd307eb88073b6ecc2.jpg" for 127.0.0.1 at 2015-11-21 19:23:05 +0000
+
+
+Started GET "/cart/6" for 127.0.0.1 at 2015-11-21 19:23:12 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"6"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:23:13 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (3.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered cart/index.html.erb within layouts/application (88.0ms)
+Completed 200 OK in 913ms (Views: 908.6ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:25:15 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mItem Load (9.2ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered cart/index.html.erb within layouts/application (90.6ms)
+Completed 200 OK in 1220ms (Views: 1208.8ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/assets/GolfStyleSheet.self-16d533848a96a2372db196837252d6946ea864a81476d3a0df218567f250916b.css?body=1" for 127.0.0.1 at 2015-11-21 19:25:17 +0000
+
+
+Started GET "/assets/cart.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:25:18 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-21 19:25:18 +0000
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:25:18 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:25:18 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-21 19:25:18 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 19:25:18 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 19:25:18 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 19:25:18 +0000
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:25:19 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:25:19 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:25:19 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-21 19:25:19 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 19:25:22 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 19:25:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (37.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (12.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (25.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (356.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (11.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (11.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (202.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (448.4ms)
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 19:25:23 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 19:25:24 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 19:25:24 +0000
+
+
+Started GET "/assets/2-962e692aefb21c015cc3906ea21a594d2d54c0c06a5950161c030fbca05fed4d.jpg" for 127.0.0.1 at 2015-11-21 19:25:24 +0000
+
+
+Started GET "/assets/6-5f2ef227d801319792c3e41b6cf552a294d3761901cc759c806ea361b475154d.jpg" for 127.0.0.1 at 2015-11-21 19:25:24 +0000
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:26:05 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered cart/index.html.erb within layouts/application (167.6ms)
+Completed 200 OK in 1911ms (Views: 1907.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/GolfStyleSheet.self-16d533848a96a2372db196837252d6946ea864a81476d3a0df218567f250916b.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:19 +0000
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:19 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:19 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:19 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:19 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:20 +0000
+
+
+Started GET "/assets/cart.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:20 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:20 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:20 +0000
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:20 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:20 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:20 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:20 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 19:26:23 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (24.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (21.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (17.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (338.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (6.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (8.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (6.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (223.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (12.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (469.2ms)
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 19:26:25 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 19:26:25 +0000
+
+
+Started GET "/assets/2-962e692aefb21c015cc3906ea21a594d2d54c0c06a5950161c030fbca05fed4d.jpg" for 127.0.0.1 at 2015-11-21 19:26:25 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 19:26:25 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 19:26:25 +0000
+
+
+Started GET "/assets/6-5f2ef227d801319792c3e41b6cf552a294d3761901cc759c806ea361b475154d.jpg" for 127.0.0.1 at 2015-11-21 19:26:25 +0000
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:26:54 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (1.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mItem Load (0.3ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered cart/index.html.erb within layouts/application (123.4ms)
+Completed 200 OK in 1739ms (Views: 1735.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/GolfStyleSheet.self-16d533848a96a2372db196837252d6946ea864a81476d3a0df218567f250916b.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:56 +0000
+
+
+Started GET "/assets/cart.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-21 19:26:57 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 19:27:01 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (18.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (281.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (5.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (164.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (343.7ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 19:27:02 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 19:27:02 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 19:27:02 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 19:27:02 +0000
+
+
+Started GET "/assets/2-962e692aefb21c015cc3906ea21a594d2d54c0c06a5950161c030fbca05fed4d.jpg" for 127.0.0.1 at 2015-11-21 19:27:02 +0000
+
+
+Started GET "/assets/6-5f2ef227d801319792c3e41b6cf552a294d3761901cc759c806ea361b475154d.jpg" for 127.0.0.1 at 2015-11-21 19:27:02 +0000
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:28:47 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (5.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered cart/index.html.erb within layouts/application (76.6ms)
+Completed 200 OK in 896ms (Views: 888.9ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 19:28:50 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (24.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (296.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (6.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (195.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (395.5ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 19:28:51 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 19:28:51 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 19:28:51 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 19:28:51 +0000
+
+
+Started GET "/cart/remove/6" for 127.0.0.1 at 2015-11-21 19:29:00 +0000
+Processing by CartController#remove as HTML
+  Parameters: {"id"=>"6"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:29:01 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (15.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (55.7ms)
+Completed 200 OK in 885ms (Views: 869.1ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/cart/clear" for 127.0.0.1 at 2015-11-21 19:29:12 +0000
+Processing by CartController#clearCart as HTML
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:29:12 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 779ms (Views: 778.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 19:29:22 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (168.5ms)
+Completed 200 OK in 1131ms (Views: 1128.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 19:35:55 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 1188ms (Views: 1186.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 19:35:57 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 19:35:58 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 19:35:58 +0000
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 19:36:00 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 894ms (Views: 893.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 19:36:04 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (17.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (273.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (6.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (13.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (183.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (412.4ms)
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 19:36:05 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 19:36:05 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 19:36:05 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 19:36:05 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 19:36:05 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 19:36:05 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 19:36:05 +0000
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 19:39:40 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 974ms (Views: 972.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-21 19:40:33 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 895ms (Views: 894.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/GolfStyleSheet.self-16d533848a96a2372db196837252d6946ea864a81476d3a0df218567f250916b.css?body=1" for 127.0.0.1 at 2015-11-21 19:40:34 +0000
+
+
+Started GET "/assets/cart.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:40:34 +0000
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:40:34 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:40:34 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-21 19:40:34 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 19:40:34 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 19:40:34 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-21 19:40:35 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 19:40:35 +0000
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:40:35 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:40:35 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:40:35 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-21 19:40:35 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 19:40:38 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (13.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (245.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (150.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (321.2ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 19:40:39 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 19:40:39 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 19:40:39 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 19:40:39 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-21 19:40:39 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-21 19:40:39 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-21 19:40:39 +0000
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2015-11-21 19:41:00 +0000
+Processing by SitepageController#aboutus as HTML
+  Rendered sitepage/aboutus.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 729ms (Views: 728.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img2.jpg" for 127.0.0.1 at 2015-11-21 19:41:02 +0000
+
+
+Started GET "/cart" for 127.0.0.1 at 2015-11-21 19:41:07 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1089ms (Views: 1087.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 19:41:16 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (166.8ms)
+Completed 200 OK in 1120ms (Views: 1113.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/1-6a47737e33f1696426a90d7d8661cdff669b4af704a0b7c2fa44475bfc02b459.jpg" for 127.0.0.1 at 2015-11-21 19:41:19 +0000
+
+
+Started GET "/assets/2-962e692aefb21c015cc3906ea21a594d2d54c0c06a5950161c030fbca05fed4d.jpg" for 127.0.0.1 at 2015-11-21 19:41:19 +0000
+
+
+Started GET "/assets/3-71b2e7173be6bc0e968b51bfb42474a534a3fcba6c2e9e1741eac53993556246.jpg" for 127.0.0.1 at 2015-11-21 19:41:19 +0000
+
+
+Started GET "/assets/6-5f2ef227d801319792c3e41b6cf552a294d3761901cc759c806ea361b475154d.jpg" for 127.0.0.1 at 2015-11-21 19:41:19 +0000
+
+
+Started GET "/assets/5-bc7f925933aab98292b59547e94cf275a5041b7d3b4d5a04a1f9f8334eaa3cdb.jpg" for 127.0.0.1 at 2015-11-21 19:41:19 +0000
+
+
+Started GET "/assets/4-cd9e78b65fe1152767c681bb727512516f34928965089c538efeb11f292aa2bc.jpg" for 127.0.0.1 at 2015-11-21 19:41:20 +0000
+
+
+Started GET "/assets/7-d8e563d7858d9ddeb14d2a6c9b3b350f0ac885ea77ba7c8449a9c0ce8fde536f.jpg" for 127.0.0.1 at 2015-11-21 19:41:20 +0000
+
+
+Started GET "/assets/8-7ee8f1e8724be091a6bac7fb3cfb2b2c146804cf050eefcd307eb88073b6ecc2.jpg" for 127.0.0.1 at 2015-11-21 19:41:20 +0000
+
+
+Started GET "/cart/2" for 127.0.0.1 at 2015-11-21 19:41:36 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 18ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:41:36 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.6ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (40.3ms)
+Completed 200 OK in 903ms (Views: 893.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-21 19:41:47 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (242.3ms)
+Completed 200 OK in 1209ms (Views: 1206.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/cart/6" for 127.0.0.1 at 2015-11-21 19:42:08 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"6"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:42:08 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mItem Load (8.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered cart/index.html.erb within layouts/application (80.2ms)
+Completed 200 OK in 910ms (Views: 900.0ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/cart/clear" for 127.0.0.1 at 2015-11-21 19:42:19 +0000
+Processing by CartController#clearCart as HTML
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:42:19 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 866ms (Views: 864.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:57:19 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 660ms (Views: 658.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/GolfStyleSheet.self-16d533848a96a2372db196837252d6946ea864a81476d3a0df218567f250916b.css?body=1" for 127.0.0.1 at 2015-11-21 19:57:20 +0000
+
+
+Started GET "/assets/cart.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:57:20 +0000
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:57:20 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 19:57:21 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-21 19:57:21 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-21 19:57:21 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 19:57:21 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 19:57:21 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 19:57:21 +0000
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:57:21 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:57:21 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 19:57:21 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-21 19:57:21 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 19:57:22 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 19:57:22 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 19:57:22 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 19:57:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (13.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (308.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (5.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (6.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (177.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (405.1ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 19:57:23 +0000
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-21 19:58:56 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 850ms (Views: 848.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-21 19:59:12 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (272.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (6.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (170.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (5.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (395.9ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-21 19:59:13 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-21 19:59:13 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-21 19:59:13 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-21 19:59:13 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-22 08:53:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (8.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 4019ms (Views: 3877.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/GolfStyleSheet.self-16d533848a96a2372db196837252d6946ea864a81476d3a0df218567f250916b.css?body=1" for 127.0.0.1 at 2015-11-22 08:53:32 +0000
+
+
+Started GET "/assets/cart.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-22 08:53:32 +0000
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-22 08:53:32 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-22 08:53:32 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-22 08:53:32 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-22 08:53:33 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-22 08:53:33 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-22 08:53:33 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-22 08:53:33 +0000
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-22 08:53:33 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-22 08:53:33 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-22 08:53:33 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-22 08:53:33 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-22 08:53:34 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-22 08:53:34 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-22 08:53:34 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-22 08:53:34 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-22 08:53:34 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-22 08:53:34 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-22 08:53:34 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-22 08:53:36 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (23.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (17.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (266.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (739.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (9.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (421.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (8.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (781.7ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff" for 127.0.0.1 at 2015-11-22 08:53:38 +0000
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2015-11-22 08:54:41 +0000
+Processing by SitepageController#aboutus as HTML
+  Rendered sitepage/aboutus.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 665ms (Views: 663.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/img2.jpg" for 127.0.0.1 at 2015-11-22 08:54:42 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-22 08:54:48 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (1.1ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (348.1ms)
+Completed 200 OK in 784ms (Views: 744.3ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/1-6a47737e33f1696426a90d7d8661cdff669b4af704a0b7c2fa44475bfc02b459.jpg" for 127.0.0.1 at 2015-11-22 08:54:49 +0000
+
+
+Started GET "/assets/2-962e692aefb21c015cc3906ea21a594d2d54c0c06a5950161c030fbca05fed4d.jpg" for 127.0.0.1 at 2015-11-22 08:54:49 +0000
+
+
+Started GET "/assets/5-bc7f925933aab98292b59547e94cf275a5041b7d3b4d5a04a1f9f8334eaa3cdb.jpg" for 127.0.0.1 at 2015-11-22 08:54:49 +0000
+
+
+Started GET "/assets/4-cd9e78b65fe1152767c681bb727512516f34928965089c538efeb11f292aa2bc.jpg" for 127.0.0.1 at 2015-11-22 08:54:49 +0000
+
+
+Started GET "/assets/6-5f2ef227d801319792c3e41b6cf552a294d3761901cc759c806ea361b475154d.jpg" for 127.0.0.1 at 2015-11-22 08:54:49 +0000
+
+
+Started GET "/assets/3-71b2e7173be6bc0e968b51bfb42474a534a3fcba6c2e9e1741eac53993556246.jpg" for 127.0.0.1 at 2015-11-22 08:54:49 +0000
+
+
+Started GET "/assets/7-d8e563d7858d9ddeb14d2a6c9b3b350f0ac885ea77ba7c8449a9c0ce8fde536f.jpg" for 127.0.0.1 at 2015-11-22 08:54:49 +0000
+
+
+Started GET "/assets/8-7ee8f1e8724be091a6bac7fb3cfb2b2c146804cf050eefcd307eb88073b6ecc2.jpg" for 127.0.0.1 at 2015-11-22 08:54:49 +0000
+
+
+Started GET "/cart/1" for 127.0.0.1 at 2015-11-22 08:54:55 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-22 08:54:56 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (1.0ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (301.8ms)
+Completed 200 OK in 914ms (Views: 911.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/cart/clear" for 127.0.0.1 at 2015-11-22 08:55:10 +0000
+Processing by CartController#clearCart as HTML
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-22 08:55:10 +0000
+Processing by CartController#index as HTML
+  Rendered cart/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 849ms (Views: 847.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-22 08:55:23 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 703ms (Views: 701.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2015-11-22 09:08:57 +0000
+Processing by SitepageController#aboutus as HTML
+  Rendered sitepage/aboutus.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 771ms (Views: 769.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-22 09:09:03 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.8ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (149.3ms)
+Completed 200 OK in 904ms (Views: 901.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/cart/1" for 127.0.0.1 at 2015-11-22 09:09:12 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"1"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-22 09:09:12 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.3ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered cart/index.html.erb within layouts/application (32.3ms)
+Completed 200 OK in 1007ms (Views: 1005.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-22 14:43:14 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 5669ms (Views: 5527.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/GolfStyleSheet.self-16d533848a96a2372db196837252d6946ea864a81476d3a0df218567f250916b.css?body=1" for 127.0.0.1 at 2015-11-22 14:43:24 +0000
+
+
+Started GET "/assets/cart.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-22 14:43:24 +0000
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-22 14:43:24 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-22 14:43:24 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-22 14:43:24 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-22 14:43:25 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-22 14:43:25 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-22 14:43:25 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-22 14:43:25 +0000
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-22 14:43:25 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-22 14:43:25 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-22 14:43:25 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-22 14:43:25 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-22 14:43:26 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-22 14:43:26 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-22 14:43:26 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-22 14:43:26 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-22 14:43:26 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-22 14:43:26 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-22 14:43:26 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-22 14:43:29 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (24.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (34.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (189.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (785.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (8.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (288.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (5.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (654.2ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff" for 127.0.0.1 at 2015-11-22 14:43:31 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-22 14:54:45 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.9ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (2346.1ms)
+Completed 200 OK in 3894ms (Views: 3763.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/1-6a47737e33f1696426a90d7d8661cdff669b4af704a0b7c2fa44475bfc02b459.jpg" for 127.0.0.1 at 2015-11-22 14:54:52 +0000
+
+
+Started GET "/assets/2-962e692aefb21c015cc3906ea21a594d2d54c0c06a5950161c030fbca05fed4d.jpg" for 127.0.0.1 at 2015-11-22 14:54:52 +0000
+
+
+Started GET "/assets/3-71b2e7173be6bc0e968b51bfb42474a534a3fcba6c2e9e1741eac53993556246.jpg" for 127.0.0.1 at 2015-11-22 14:54:52 +0000
+
+
+Started GET "/assets/6-5f2ef227d801319792c3e41b6cf552a294d3761901cc759c806ea361b475154d.jpg" for 127.0.0.1 at 2015-11-22 14:54:52 +0000
+
+
+Started GET "/assets/4-cd9e78b65fe1152767c681bb727512516f34928965089c538efeb11f292aa2bc.jpg" for 127.0.0.1 at 2015-11-22 14:54:52 +0000
+
+
+Started GET "/assets/5-bc7f925933aab98292b59547e94cf275a5041b7d3b4d5a04a1f9f8334eaa3cdb.jpg" for 127.0.0.1 at 2015-11-22 14:54:52 +0000
+
+
+Started GET "/assets/7-d8e563d7858d9ddeb14d2a6c9b3b350f0ac885ea77ba7c8449a9c0ce8fde536f.jpg" for 127.0.0.1 at 2015-11-22 14:54:52 +0000
+
+
+Started GET "/assets/8-7ee8f1e8724be091a6bac7fb3cfb2b2c146804cf050eefcd307eb88073b6ecc2.jpg" for 127.0.0.1 at 2015-11-22 14:54:53 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-22 14:54:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (66.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (294.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (10.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (151.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (15.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (383.0ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-22 14:54:55 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-22 14:54:55 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-22 14:54:55 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-22 14:54:55 +0000
+
+
+Started GET "/cart/2" for 127.0.0.1 at 2015-11-22 14:55:00 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 25ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-22 14:55:00 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (3.1ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (330.5ms)
+Completed 500 Internal Server Error in 372ms (ActiveRecord: 3.1ms)
+
+ActionView::Template::Error (No route matches {:action=>"createOrder", :controller=>"cart"}):
+    42: </tr>
+    43: </table>
+    44: <p><%= link_to 'Clear Cart', :controller => "cart", :action => "clearCart" %></p>
+    45: <!--<%= link_to 'Check Out', :controller => "cart", :action => "createOrder" %>-->
+    46: <% end %>
+    47: <p>
+    48: <%= link_to 'Continue Shopping', :controller => :items %>
+  app/views/cart/index.html.erb:45:in `_app_views_cart_index_html_erb__667242750__613037428'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (24.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (158.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (145.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (4.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (323.4ms)
+
+
+Started GET "/cart/2" for 127.0.0.1 at 2015-11-22 14:55:02 +0000
+Processing by CartController#add as HTML
+  Parameters: {"id"=>"2"}
+Redirected to http://127.0.0.1:3000/cart/index
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-22 14:55:02 +0000
+Processing by CartController#index as HTML
+  [1m[35mItem Load (0.4ms)[0m  SELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (43.1ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (No route matches {:action=>"createOrder", :controller=>"cart"}):
+    42: </tr>
+    43: </table>
+    44: <p><%= link_to 'Clear Cart', :controller => "cart", :action => "clearCart" %></p>
+    45: <!--<%= link_to 'Check Out', :controller => "cart", :action => "createOrder" %>-->
+    46: <% end %>
+    47: <p>
+    48: <%= link_to 'Continue Shopping', :controller => :items %>
+  app/views/cart/index.html.erb:45:in `_app_views_cart_index_html_erb__667242750_90660970'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (28.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (31.3ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (182.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (9.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (13.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (222.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (7.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (477.1ms)
+
+
+Started GET "/cart/index" for 127.0.0.1 at 2015-11-22 14:55:24 +0000
+Processing by CartController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered cart/index.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 854ms (Views: 852.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-22 14:55:26 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (16.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (272.5ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (10.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (9.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (181.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (10.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (400.8ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-22 14:55:27 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-22 14:55:27 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-22 14:55:28 +0000
+
+
+Started GET "/aboutus" for 127.0.0.1 at 2015-11-22 16:55:35 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SitepageController#aboutus as HTML
+  Rendered sitepage/aboutus.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 1874ms (Views: 1763.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-22 16:55:38 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (9.2ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (198.1ms)
+Completed 200 OK in 701ms (Views: 681.8ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-22 16:55:40 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-22 16:55:40 +0000
+Processing by ItemsController#index as HTML
+  [1m[36mItem Load (0.4ms)[0m  [1mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (151.6ms)
+Completed 200 OK in 865ms (Views: 863.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-22 16:56:21 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 482ms (Views: 480.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-22 16:56:22 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-22 16:56:22 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-22 16:56:22 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-22 16:58:55 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (0.5ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (2079.0ms)
+Completed 200 OK in 3377ms (Views: 3266.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-22 16:59:02 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (24.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (24.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (145.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (491.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (160.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (10.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (352.5ms)
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-22 16:59:03 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-22 16:59:03 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-22 16:59:03 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-22 16:59:03 +0000
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-22 16:59:08 +0000
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 436ms (Views: 434.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-22 16:59:10 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-22 16:59:10 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-22 16:59:10 +0000

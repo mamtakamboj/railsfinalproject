@@ -1,0 +1,30 @@
+<!-- DRESSES  Starts -->
+		
+		<section>
+			<div class="">
+				<div class="container">
+					<div class="heading text-center" style=" padding-top: 0px;" >
+						<img class="dividerline" src="/assets/sep.png" alt="">
+						<h2><b>DRESSES</b></h2>
+						<img class="dividerline" src="/assets/sep.png" alt="">	
+					</div>
+					<div class="row">
+						<% @items.each do |item| %>
+						<div class="col-lg-3">
+							<blockquote>
+								<%= image_tag item.image_url, :style => "width:200px" %>
+								<span class="text"><%= item.title %><br>&euro;<%= item.price %></span>
+								<button type="submit" class="btn btn-warning">
+									<a href="/cart/<%= item.id %>">Add to Cart</a>
+								</button>
+							</blockquote>
+						</div>
+						<% end %>
+					</div>
+					<hr>
+		<!--<%= link_to 'New Item', new_item_path %>-->
+				</div>
+			</div>
+		</section>
+		<!-- DRESSES  Ends  -->
+
