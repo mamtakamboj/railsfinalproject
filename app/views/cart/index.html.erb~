@@ -42,7 +42,7 @@
 </tr>
 </table>
 <p><%= link_to 'Clear Cart', :controller => "cart", :action => "clearCart" %></p>
-<!--<%= link_to 'Check Out', :controller => "cart", :action => "createOrder" %>-->
+
 <% end %>
 <p>
 <%= link_to 'Continue Shopping', :controller => :items %>
