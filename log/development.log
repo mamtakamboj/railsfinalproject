@@ -3440,3 +3440,148 @@ Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-22 16:59:10 +0000
 
 
 Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-22 16:59:10 +0000
+
+
+Started GET "/home" for 127.0.0.1 at 2015-11-22 17:55:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SitepageController#home as HTML
+  Rendered sitepage/home.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 3277ms (Views: 3137.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/GolfStyleSheet.self-16d533848a96a2372db196837252d6946ea864a81476d3a0df218567f250916b.css?body=1" for 127.0.0.1 at 2015-11-22 17:55:31 +0000
+
+
+Started GET "/assets/cart.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-22 17:55:31 +0000
+
+
+Started GET "/assets/items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-22 17:55:31 +0000
+
+
+Started GET "/assets/application.self-37ff90473ccf0951e48d17686f0c76bb98440495ff1a1e6ee6722f86e695f15f.css?body=1" for 127.0.0.1 at 2015-11-22 17:55:31 +0000
+
+
+Started GET "/assets/sitepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-22 17:55:31 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-22 17:55:31 +0000
+
+
+Started GET "/assets/scaffolds.self-66904dfe3e21b7a0185886926db23a521e6bc48e7567c0e2db066f701a75c320.css?body=1" for 127.0.0.1 at 2015-11-22 17:55:31 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-22 17:55:32 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-22 17:55:32 +0000
+
+
+Started GET "/assets/cart.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-22 17:55:32 +0000
+
+
+Started GET "/assets/items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-22 17:55:32 +0000
+
+
+Started GET "/assets/sitepage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-22 17:55:32 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-22 17:55:32 +0000
+
+
+Started GET "/assets/banner-3.jpg" for 127.0.0.1 at 2015-11-22 17:55:32 +0000
+
+
+Started GET "/assets/banner-1.jpg" for 127.0.0.1 at 2015-11-22 17:55:32 +0000
+
+
+Started GET "/assets/sep.png" for 127.0.0.1 at 2015-11-22 17:55:32 +0000
+
+
+Started GET "/assets/1.jpg" for 127.0.0.1 at 2015-11-22 17:55:33 +0000
+
+
+Started GET "/assets/banner-2.jpg" for 127.0.0.1 at 2015-11-22 17:55:33 +0000
+
+
+Started GET "/assets/2.jpg" for 127.0.0.1 at 2015-11-22 17:55:33 +0000
+
+
+Started GET "/assets/3.jpg" for 127.0.0.1 at 2015-11-22 17:55:33 +0000
+
+
+Started GET "/assets/Site/Bodenstown.jpg" for 127.0.0.1 at 2015-11-22 17:55:35 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/Site/Bodenstown.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/nci/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (12.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (97.1ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (518.6ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (312.9ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (5.0ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.4ms)
+  Rendered /home/nci/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (644.4ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff" for 127.0.0.1 at 2015-11-22 17:55:37 +0000
+
+
+Started GET "/items" for 127.0.0.1 at 2015-11-22 17:55:42 +0000
+Processing by ItemsController#index as HTML
+  [1m[35mItem Load (1.0ms)[0m  SELECT "items".* FROM "items"
+  Rendered items/index.html.erb within layouts/application (273.8ms)
+Completed 200 OK in 1004ms (Views: 983.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/2-962e692aefb21c015cc3906ea21a594d2d54c0c06a5950161c030fbca05fed4d.jpg" for 127.0.0.1 at 2015-11-22 17:55:44 +0000
+
+
+Started GET "/assets/3-71b2e7173be6bc0e968b51bfb42474a534a3fcba6c2e9e1741eac53993556246.jpg" for 127.0.0.1 at 2015-11-22 17:55:44 +0000
+
+
+Started GET "/assets/1-6a47737e33f1696426a90d7d8661cdff669b4af704a0b7c2fa44475bfc02b459.jpg" for 127.0.0.1 at 2015-11-22 17:55:44 +0000
+
+
+Started GET "/assets/4-cd9e78b65fe1152767c681bb727512516f34928965089c538efeb11f292aa2bc.jpg" for 127.0.0.1 at 2015-11-22 17:55:44 +0000
+
+
+Started GET "/assets/5-bc7f925933aab98292b59547e94cf275a5041b7d3b4d5a04a1f9f8334eaa3cdb.jpg" for 127.0.0.1 at 2015-11-22 17:55:44 +0000
+
+
+Started GET "/assets/6-5f2ef227d801319792c3e41b6cf552a294d3761901cc759c806ea361b475154d.jpg" for 127.0.0.1 at 2015-11-22 17:55:44 +0000
+
+
+Started GET "/assets/7-d8e563d7858d9ddeb14d2a6c9b3b350f0ac885ea77ba7c8449a9c0ce8fde536f.jpg" for 127.0.0.1 at 2015-11-22 17:55:44 +0000
+
+
+Started GET "/assets/8-7ee8f1e8724be091a6bac7fb3cfb2b2c146804cf050eefcd307eb88073b6ecc2.jpg" for 127.0.0.1 at 2015-11-22 17:55:44 +0000
