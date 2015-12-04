@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
-
+<p>
+  <%= image_tag @item.image_url %>
+</p>
 <p>
   <strong>Title:</strong>
   <%= @item.title %>
@@ -16,14 +18,10 @@
 </p>
 
 <p>
-  <strong>Image url:</strong>
-  <%= @item.image_url %>
-</p>
-
-<p>
   <strong>Category:</strong>
   <%= @item.category %>
 </p>
-
+<% if user_signed_in? && current_user.admin? %>
 <%= link_to 'Edit', edit_item_path(@item) %> |
+<% end %>
 <%= link_to 'Back', items_path %>

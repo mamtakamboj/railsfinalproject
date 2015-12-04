@@ -1,5 +1,6 @@
 class ItemsController < ApplicationController
   before_action :set_item, only: [:show, :edit, :update, :destroy]
+  before_filter :ensure_admin, :only => [:new, :create, :edit, :destroy]
 
   # GET /items
   # GET /items.json
@@ -71,4 +72,11 @@ class ItemsController < ApplicationController
     def item_params
       params.require(:item).permit(:title, :description, :price, :image_url, :category)
     end
+#Admin account
+def ensure_admin
+unless current_user && current_user.admin?
+render :text => "Access Error Message", :status => :unauthorized
+end
+end
+
 end

@@ -35,22 +35,31 @@
 								</tr>
 								<% total += quantity * item.price %>
 								<% end %>
-								<tr>
-  									<td colspan="4">Total:</td>
- 									 <td><%= number_to_currency(total, :unit => "€") %></td>
-								</tr>
 							</tbody>
 						</table>
+						<%= form_tag "/calculate" do %>
+						<div class="col-lg-6"><%= text_field_tag :search_category %>
+						<button type="submit" class="btn btn-warning">Calculate Discount </button></div>
+						<% end %>
+						<div class="col-lg-3">Total:</div>
+						<div class="col-lg-3"><%= number_to_currency(total, :unit => "€") %></div>
 					</div>
 					<hr>
+					<div class="row">
+					<div class="col-lg-4">
 					<a href="/cart/clear">
-						<button type="submit" class="btn btn-warning" style="float:left;">Clear Cart</button>
-					</a>
+						<button type="submit" class="btn btn-warning">Clear Cart</button>
+					</a></div>
+					<div class="col-lg-4">
+					<a href="/checkout">
+						<button type="submit" class="btn btn-warning">Checkout</button>
+					</a></div>
 					<% end %>
+					<div class="col-lg-4">
 					<a href="/items">
-						<button type="submit" class="btn btn-warning" style="float:right;">Continue Shopping</button>
-					</a> 
-
+						<button type="submit" class="btn btn-warning">Continue Shopping</button>
+					</a> </div>
+					</div>
 		<!--<%= link_to 'New Item', new_item_path %>-->
 				</div>
 			</div>

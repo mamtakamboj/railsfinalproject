@@ -1,4 +1,24 @@
 Rails.application.routes.draw do
+
+  post '/calculate' => 'cart#calculateDiscouny' 
+  get 'orderitem/index'
+
+  get 'orderitem/show'
+
+  get 'orderitem/new'
+
+  get 'orderitem/edit'
+
+  resources :orders do
+    resources :orderitems
+  end
+
+  devise_for :users do 
+    resources :orders
+  end
+
+  get '/checkout' => 'cart#createOrder'
+
   get 'cart/index'
 
   resources :items
@@ -10,6 +30,12 @@ Rails.application.routes.draw do
   get '/aboutus' => 'sitepage#aboutus'
 	
   get '/items' => 'items#index'
+
+  get '/cart' => 'cart#index'
+  get '/cart/clear' => 'cart#clearCart'
+  get '/cart/:id' => 'cart#add'
+
+  get '/cart/remove/:id' => 'cart#remove'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

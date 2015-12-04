@@ -1,4 +1,24 @@
 Rails.application.routes.draw do
+
+  post '/calculate' => 'cart#calculateDiscount' 
+  get 'orderitem/index'
+
+  get 'orderitem/show'
+
+  get 'orderitem/new'
+
+  get 'orderitem/edit'
+
+  resources :orders do
+    resources :orderitems
+  end
+
+  devise_for :users do 
+    resources :orders
+  end
+
+  get '/checkout' => 'cart#createOrder'
+
   get 'cart/index'
 
   resources :items

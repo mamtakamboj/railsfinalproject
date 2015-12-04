@@ -13,15 +13,27 @@
 						<div class="col-lg-3">
 							<blockquote>
 								<%= image_tag item.image_url, :style => "width:200px" %>
-								<span class="text"><%= item.title %><br>&euro;<%= item.price %></span>
+								<span class="text"><%= item.title %><br>&euro;<%= item.price %>
+								<%= link_to 'Show', item %></span>
+								<% if user_signed_in? && current_user.admin? %>
+								
+								<%= link_to 'Edit', edit_item_path(item) %>
+								<%= link_to 'Destroy', item, confirm: 'Are you sure?', method: :delete %>
+								<% else %>
 								<a href="/cart/<%= item.id %>">
 									<button type="submit" class="btn btn-warning">Add to Cart</button>
 								</a>
+								<% end %>
 							</blockquote>
 						</div>
-						<% end %>
+					<% end %>
 					</div>
 					<hr>
+
+<% if user_signed_in? && current_user.admin? %>
+<b><%= link_to 'Add New Item', new_item_path %></b>
+<% end %>
+
 		<!--<%= link_to 'New Item', new_item_path %>-->
 				</div>
 			</div>

@@ -1,0 +1,13 @@
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+			<% if user_signed_in? %>
+				<p><b> Thanks For Creating Order. Your Order has been Placed !!!!</b></p>
+			<% else %>
+				<%= link_to 'Register', new_user_registration_path %> or <%= link_to 'Sign in', new_user_session_path %>
+			<% end %>
+			</div>
+		</div>
+	</div>
+</section>

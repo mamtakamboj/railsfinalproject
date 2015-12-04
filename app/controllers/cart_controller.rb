@@ -79,9 +79,28 @@ class CartController < ApplicationController
 				flash[:notice] = nil
 			end
 		else 
-		 	#redirect_to 'user/login'
 			flash[:notice] = "You need to Login or Register to proceed Checkout!!!"
 		end
+	end
+
+	def calculateDiscount
+		if session[:cart] then
+			@cart = session[:cart]
+		else
+			@cart = {}
+		end
+		@category = params[:search_category]
+ 		total = 0
+		@cart.each do | id, quantity |
+		  item = Item.find_by_id(id) 
+		  total += quantity * item.price 
+		end 
+
+                @discount_total = Discount.calulate(@category, total)
+		#@category = params[:search_category]
+		#@total = params[:total]
+		#@result = Discount.calulate("@category", @total)
+		#redirect_to :action => :index
 	end
 end
 

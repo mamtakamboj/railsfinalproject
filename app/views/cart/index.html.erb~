@@ -1,52 +1,66 @@
-<h1>Your Cart</h1>
-
-<% if @cart.empty? %>
-<p>Your Cart is empty.</p>
-<% else %>
-
-<% total = 0 %>
-<table class="cart">
-<tr>
-  <td class="legend"></td>
-  <td class="legend">Item</td>
-  <td class="legend">Price</td>
-  <td class="legend">Qty</td>
-  <td class="legend">Total</td>
-  <td class="legend">Remove</td>
-</tr>
-<% @cart.each do | id, quantity | %>
-<% item = Item.find_by_id(id) %>
-<tr>
-  <td>
-	<div class="image">
-	  <%= link_to (image_tag item.image_url, :style => "height:40px"), item %>
-	</div>
-  </td>
-  <td class="title"><%= link_to item.title, item %></td>
-  <td class="price"><%= number_to_currency(item.price) %></td>
-  <td class="quantity"><%= quantity %><br /></td>
-  <td class="price">
-	<%= number_to_currency(quantity * item.price, :unit => "£") %>
-  </td>
-  <td><a href="/cart/remove/<%= item.id %>">Remove from Cart</a></td>
-</tr>
-<% total += quantity * item.price %>
-<% end %>
-<tr>
-  <td colspan="4">
-	<div class="total">Total:</div>
-  </td>
-  <td>
-	<div class="price"><%= number_to_currency(total, :unit => "€") %></div>
-  </td>
-</tr>
-</table>
-<p><%= link_to 'Clear Cart', :controller => "cart", :action => "clearCart" %></p>
-
-<% end %>
-<p>
-<%= link_to 'Continue Shopping', :controller => :items %>
-</p> 
-
-
-
+<section>
+			<div class="">
+				<div class="container">
+					<div class="heading text-center" style=" padding-top: 0px;" >
+						<img class="dividerline" src="/assets/sep.png" alt="">
+						<h2><b>CART</b></h2>
+						<img class="dividerline" src="/assets/sep.png" alt="">	
+					</div>
+					<div class="row">
+						<% if @cart.empty? %>
+							<p>Your Cart is empty.</p>
+						<% else %>
+						<% total = 0 %>
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th></th>
+									<th>Item</th>
+									<th>Price</th>
+									<th>Qty</th>
+									<th>Total</th>
+									<th>Remove</th>
+								</tr>
+							</thead>
+							 <tbody>
+								<% @cart.each do | id, quantity | %>
+								<% item = Item.find_by_id(id) %>
+								<tr>
+									<td><%= link_to (image_tag item.image_url, :style => "height:40px"), item %></td>
+									<td><%= link_to item.title, item %></td>
+									<td><%= number_to_currency(item.price) %></td>
+									<td><%= quantity %></td>
+									<td><%= number_to_currency(quantity * item.price, :unit => "€") %></td>
+									<td><a href="/cart/remove/<%= item.id %>">Remove from Cart</a></td>
+								</tr>
+								<% total += quantity * item.price %>
+								<% end %>
+							</tbody>
+						</table>
+						<%= form_tag "/calculate" do %>
+						<div class="col-lg-6"><%= text_field_tag :search_category %>
+						<button type="submit" class="btn btn-warning">Calculate Discount </button></div>
+						<% end %>
+						<div class="col-lg-3">Total:</div>
+						<div class="col-lg-3"><%= number_to_currency(total, :unit => "€") %></div>
+					</div>
+					<hr>
+					<div class="row">
+					<div class="col-lg-4">
+					<a href="/cart/clear">
+						<button type="submit" class="btn btn-warning">Clear Cart</button>
+					</a></div>
+					<div class="col-lg-4">
+					<a href="/checkout">
+						<button type="submit" class="btn btn-warning">Checkout</button>
+					</a></div>
+					<% end %>
+					<div class="col-lg-4">
+					<a href="/items">
+						<button type="submit" class="btn btn-warning">Continue Shopping</button>
+					</a> </div>
+					</div>
+		<!--<%= link_to 'New Item', new_item_path %>-->
+				</div>
+			</div>
+		</section><hr>
