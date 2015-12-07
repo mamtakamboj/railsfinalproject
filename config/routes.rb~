@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  post '/calculate' => 'cart#calculateDiscouny' 
+  post '/calculate' => 'cart#calculateDiscount' 
+  post '/convert' => 'cart#currencyConvert'
+  post '/searchProduct' => 'items#searchProduct'
   get 'orderitem/index'
 
   get 'orderitem/show'

@@ -38,11 +38,19 @@
 							</tbody>
 						</table>
 						<%= form_tag "/calculate" do %>
-						<div class="col-lg-6"><%= text_field_tag :search_category %>
+						<div class="col-lg-4"><%= text_field_tag :search_category %>
 						<button type="submit" class="btn btn-warning">Calculate Discount </button></div>
 						<% end %>
-						<div class="col-lg-3">Total:</div>
-						<div class="col-lg-3"><%= number_to_currency(total, :unit => "€") %></div>
+						<!--<div class="col-lg-2">Total: </div>-->
+						<div class="col-lg-8">
+							
+							<%= form_tag "/convert" do %>
+							Total:   <%= number_to_currency(total, :unit => "€") %>
+							<%= select_tag(:currency_id, options_for_select([['Currency', 'Curr'], ['USD', 'USD'], ['INR', 'INR'], ['BP', 'BP']], 1)) %>
+							<button type="submit" class="btn btn-primary">Convert Currency </button></div>
+							<% end %>
+						</div>
+
 					</div>
 					<hr>
 					<div class="row">

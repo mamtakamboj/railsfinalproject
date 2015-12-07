@@ -31,7 +31,12 @@
 						<li><a href="/users/sign_in">LOGIN</a></li>
 						<% end %>
 					</ul>
+					<span style="float:right; margin:5px;"><%= form_tag "/searchProduct" do %>
+						<%= text_field_tag :search_product %>
+						<%= submit_tag "Search" %>
+						<% end %></span>
 				</div>
+	
 			</div>
 		</nav>
 		<!-- Navbar Ends -->

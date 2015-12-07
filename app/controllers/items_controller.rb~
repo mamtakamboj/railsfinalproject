@@ -1,11 +1,18 @@
 class ItemsController < ApplicationController
   before_action :set_item, only: [:show, :edit, :update, :destroy]
+  before_filter :ensure_admin, :only => [:new, :create, :edit, :destroy]
 
   # GET /items
   # GET /items.json
   def index
     @items = Item.all
   end
+
+  def searchProduct
+    	@items = Item.all
+	#search = "%" + params[:search_product] + "%"
+	#@items = Item.where("items.title LIKE ?", search)
+  end	
 
   # GET /items/1
   # GET /items/1.json
@@ -77,5 +84,6 @@ unless current_user && current_user.admin?
 render :text => "Access Error Message", :status => :unauthorized
 end
 end
+
 
 end

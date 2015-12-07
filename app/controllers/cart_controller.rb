@@ -97,10 +97,21 @@ class CartController < ApplicationController
 		end 
 
                 @discount_total = Discount.calulate(@category, total)
-		#@category = params[:search_category]
-		#@total = params[:total]
-		#@result = Discount.calulate("@category", @total)
-		#redirect_to :action => :index
+	end
+	
+	def currencyConvert
+		if session[:cart] then
+			@cart = session[:cart]
+		else
+			@cart = {}
+		end
+		@category = params[:currency_id]
+ 		total = 0
+		@cart.each do | id, quantity |
+		  item = Item.find_by_id(id) 
+		  total += quantity * item.price 
+		end 
+		@converted_value = Currency.convert(@category, total)
 	end
 end
 

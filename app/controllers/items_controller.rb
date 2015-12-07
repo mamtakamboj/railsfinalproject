@@ -8,6 +8,12 @@ class ItemsController < ApplicationController
     @items = Item.all
   end
 
+  def searchProduct
+    	#@items = Item.all
+	search = "%" + params[:search_product] + "%"
+	@items = Item.where("items.title LIKE ?", search)
+  end	
+
   # GET /items/1
   # GET /items/1.json
   def show
@@ -78,5 +84,6 @@ unless current_user && current_user.admin?
 render :text => "Access Error Message", :status => :unauthorized
 end
 end
+
 
 end

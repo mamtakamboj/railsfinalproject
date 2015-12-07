@@ -1,0 +1,26 @@
+
+<section>
+	<div class="container">
+		<div class="heading text-center" style=" padding-top: 0px;" >
+			<img class="dividerline" src="/assets/sep.png" alt="">
+			<h2><b>SEARCH RESULTS</b></h2>
+			<img class="dividerline" src="/assets/sep.png" alt="">	
+		</div>
+		<% if @items.present? %>
+		<% @items.each do |item| %>
+		<div class="row">
+			<div class="col-lg-4"><%= image_tag item.image_url, :style => "height:120px" %></div>
+			<div class="col-lg-8">Title : <%= item.title %><br> Description:<%= item.description %></div>
+		</div><hr>
+		<% end %>
+		<% else %>
+		<div class="row">
+		<div class="col-lg-12"><p> No Result Found !!!! </p></div>
+		</div>
+		<% end %>
+	</div>
+</section>
+
+
+
+

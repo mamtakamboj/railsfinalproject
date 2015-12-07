@@ -1,0 +1,18 @@
+class Item < ActiveRecord::Base
+	attr_accessible :title, :description
+
+     # validates_uniqueness_of :item_code, :item_name
+
+     # validates :item_name, :item_code, :presence => true
+
+      def self.search(query)
+        if query
+          find(:all, :conditions => ['title LIKE ?', "% #{query} %"] )
+        else
+          find(:all)
+        end
+      end
+	#def self.search(search)
+		#where("title LIKE ?", "%#{search}%")
+	#end
+end

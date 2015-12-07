@@ -13,8 +13,8 @@
 						<div class="col-lg-3">
 							<blockquote>
 								<%= image_tag item.image_url, :style => "width:200px" %>
-								<span class="text"><%= item.title %><br>&euro;<%= item.price %></span>
-								<%= link_to 'Show', item %>
+								<span class="text"><%= item.title %><br>&euro;<%= item.price %>
+								<%= link_to 'Show', item %></span>
 								<% if user_signed_in? && current_user.admin? %>
 								
 								<%= link_to 'Edit', edit_item_path(item) %>

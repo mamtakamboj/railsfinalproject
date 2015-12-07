@@ -1,0 +1,5 @@
+<p> Search Results</p>
+<% @items.each do |item| %>
+<%= item.title %>
+<% end %>
+

@@ -31,7 +31,12 @@
 						<li><a href="/users/sign_in">LOGIN</a></li>
 						<% end %>
 					</ul>
+					<span style="float:right; margin:5px;"><%= form_tag "/searchProduct", :method => 'get' do %>
+						<%= text_field_tag :search_product %>
+						<%= submit_tag "Search" %>
+						<% end %></span>
 				</div>
+	
 			</div>
 		</nav>
 		<!-- Navbar Ends -->
@@ -77,10 +82,11 @@
 				</div>
 				<%= yield %>
 			</div>
+		<hr>
 		</section>
 
 		<!----Main Content Starts ---->
-
+		
 		<!--Footer Start -->
 		<section style="margin-top:50px;">
 			<div class="navbar navbar-inverse navbar-fixed-bottom" >
